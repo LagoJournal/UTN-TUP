@@ -8,4 +8,5 @@
 ### Actividades
 
 - ✅ Guía de Ejercicios
-- ✅ Cuestionario Evaluativo Módulo 1
+- ✅ Lección de aprendizaje "Habilidades numéricas y algebraicas"
+- ✅ Cuestionario Evaluativo Módulo I
