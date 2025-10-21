@@ -1,2 +1,23 @@
 # Archivos de macOS
 .DS_Store
+
+# NetBeans
+/nbproject/private/
+/build/
+/dist/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+/nbactions.xml
+/nb-configuration.xml
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
