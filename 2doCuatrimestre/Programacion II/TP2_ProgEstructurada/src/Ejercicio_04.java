@@ -1,16 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author agustinlago
- */
-
 import java.util.Scanner;
 
-public class CalculadoraDescuento {
+public class Ejercicio_04 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese el precio del producto: ");
@@ -23,13 +13,10 @@ public class CalculadoraDescuento {
             case "B": porcentaje = 15; break;
             case "C": porcentaje = 20; break;
             default:
-                System.out.println("Categoría inválida, no se aplicara descuento");
+                System.out.println("Categoría inválida.");
         }
-        double descuento = precio * (porcentaje / 100.0);
-        double precioFinal = precio - descuento;
-        System.out.println("Precio original: " + precio);
-        System.out.println("Descuento aplicado: " + porcentaje + "%");
+        double precioFinal = precio - precio * (porcentaje / 100.0);
+        System.out.println("Descuento aplicado: " + (int) porcentaje + "%");
         System.out.println("Precio final: " + precioFinal);
-        sc.close();
     }
 }

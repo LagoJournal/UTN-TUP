@@ -1,14 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author agustinlago
- */
-
-public class PreciosRe {
+public class Ejercicio_13 {
     public static void imprimirRecursivo(double[] arr, int idx) {
         if (idx >= arr.length) return;
         System.out.println("Precio: $" + arr[idx]);
@@ -23,7 +13,7 @@ public class PreciosRe {
 
         precios[2] = 129.99;
 
-        System.out.println("\nPrecios modificados:");
+        System.out.println("Precios modificados:");
         imprimirRecursivo(precios, 0);
     }
 }

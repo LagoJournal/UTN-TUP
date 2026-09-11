@@ -1,15 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author agustinlago
- */
 import java.util.Scanner;
 
-public class Contador {
+public class Ejercicio_06 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int positivos = 0, negativos = 0, ceros = 0;
@@ -24,6 +15,5 @@ public class Contador {
         System.out.println("Positivos: " + positivos);
         System.out.println("Negativos: " + negativos);
         System.out.println("Ceros: " + ceros);
-        sc.close();
     }
 }

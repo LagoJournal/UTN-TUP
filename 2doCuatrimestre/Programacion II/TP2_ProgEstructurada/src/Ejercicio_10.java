@@ -1,15 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author agustinlago
- */
 import java.util.Scanner;
 
-public class Stock {
+public class Ejercicio_10 {
     public static int actualizarStock(int stockActual, int cantidadVendida, int cantidadRecibida) {
         return stockActual - cantidadVendida + cantidadRecibida;
     }
@@ -24,6 +15,5 @@ public class Stock {
         int recibida = sc.nextInt();
         int nuevo = actualizarStock(stock, vendida, recibida);
         System.out.println("El nuevo stock del producto es: " + nuevo);
-        sc.close();
     }
 }
