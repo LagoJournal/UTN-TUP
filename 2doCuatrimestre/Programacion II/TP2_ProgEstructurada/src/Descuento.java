@@ -11,10 +11,10 @@ import java.util.Scanner;
 
 public class Descuento {
     
-    private static final double PORCENTAJE_DESCUENTO = 0.10;
+    private static final double DESCUENTO_ESPECIAL = 0.10;
 
     public static double calcularDescuentoEspecial(double precio) {
-        double descuentoAplicado = precio * PORCENTAJE_DESCUENTO;
+        double descuentoAplicado = precio * DESCUENTO_ESPECIAL;
         System.out.println("El descuento especial aplicado es: " + descuentoAplicado);
         return precio - descuentoAplicado;
     }

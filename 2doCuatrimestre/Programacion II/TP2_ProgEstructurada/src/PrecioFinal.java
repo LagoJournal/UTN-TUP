@@ -18,7 +18,7 @@ public class PrecioFinal {
             return 10.0 * pesoKg;
         }
     }
-w
+
     public static double calcularTotalCompra(double precioProducto, double costoEnvio) {
         return precioProducto + costoEnvio;
     }
